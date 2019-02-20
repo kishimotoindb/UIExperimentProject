@@ -26,7 +26,7 @@ public class RecyclerActivity extends AppCompatActivity {
         static String[] data =
                 {
                         "GridLayout横向item数量",
-                        "快捷功能展开动画"
+                        "展开跟随动画"
                 };
         static Class[] classes =
                 {

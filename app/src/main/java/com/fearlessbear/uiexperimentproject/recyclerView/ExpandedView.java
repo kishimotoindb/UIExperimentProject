@@ -158,6 +158,7 @@ public class ExpandedView extends FrameLayout {
         mFirstFloor.setLayoutParams(flp);
 
         // 三、处理二楼的跟随和滑动效果
+
         // 1.当一楼和二楼到达交汇点之前：二楼需要保持相对于屏幕的绝对位置，所以动态保持这个位置。
         // 2.当交汇之后，二楼list向下滑动露出顶部
         mFirstFloor.getLocationOnScreen(mFirstFloorLocation);
