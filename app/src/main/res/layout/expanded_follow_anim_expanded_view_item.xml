@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fearlessbear.uiexperimentproject.recyclerView.ExpandedView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <ListView
+        android:id="@+id/second_floor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/first_floor"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:alpha="0.5"
+        android:scaleType="fitXY"
+        android:src="@drawable/target"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="top"
+        android:background="@android:color/holo_red_dark"/>
+
+</com.fearlessbear.uiexperimentproject.recyclerView.ExpandedView>

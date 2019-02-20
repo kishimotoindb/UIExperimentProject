@@ -10,7 +10,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.fearlessbear.uiexperimentproject.R;
-import com.fearlessbear.uiexperimentproject.recyclerView.GridLayoutItemNumActivity;
 
 public class RecyclerActivity extends AppCompatActivity {
     ListView listView;
@@ -26,11 +25,13 @@ public class RecyclerActivity extends AppCompatActivity {
     private static class MyAdapter extends BaseAdapter {
         static String[] data =
                 {
-                        "GridLayout横向item数量"
+                        "GridLayout横向item数量",
+                        "快捷功能展开动画"
                 };
         static Class[] classes =
                 {
-                        GridLayoutItemNumActivity.class
+                        GridLayoutItemNumActivity.class,
+                        ExpandedFollowAnimActivity.class
                 };
 
         @Override
