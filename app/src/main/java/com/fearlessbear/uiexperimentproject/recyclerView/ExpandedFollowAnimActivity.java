@@ -2,6 +2,7 @@ package com.fearlessbear.uiexperimentproject.recyclerView;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -60,8 +61,8 @@ public class ExpandedFollowAnimActivity extends AppCompatActivity {
                 convertView = LayoutInflater.from(parent.getContext()).inflate(
                         position != 0 ? android.R.layout.simple_list_item_1 : R.layout.expanded_follow_anim_expanded_view_item,
                         parent, false);
-                if (convertView instanceof ExpandedView) {
-                    final ExpandedView expandedView = (ExpandedView) convertView;
+                if (convertView instanceof ExpandView) {
+                    final ExpandView expandedView = (ExpandView) convertView;
                     expandedView.setListView(mListView);
                     ListView secList = convertView.findViewById(R.id.second_floor);
                     secList.setAdapter(new SecAdapter(convertView));
@@ -128,6 +129,7 @@ public class ExpandedFollowAnimActivity extends AppCompatActivity {
                         if (observer.isAlive()) {
                             observer.removeOnPreDrawListener(this);
                         }
+                        Log.i("ExpandView", "mydebug second floor target top: " + finalConvertView.getTop());
                         return true;
                     }
                 });
