@@ -18,8 +18,8 @@
         </activity>
         <activity android:name=".recyclerView.RecyclerActivity"/>
         <activity android:name=".recyclerView.GridLayoutItemNumActivity"/>
-        <activity android:name=".recyclerView.ExpandedFollowAnimActivity">
-        </activity>
+        <activity android:name=".recyclerView.ExpandedFollowAnimActivity"/>
+        <activity android:name=".recyclerView.ExpandedFollowAnimImplActivity"/>
     </application>
 
 </manifest>
