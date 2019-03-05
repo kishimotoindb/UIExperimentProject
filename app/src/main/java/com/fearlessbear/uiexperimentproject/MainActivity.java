@@ -10,6 +10,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.fearlessbear.uiexperimentproject.recyclerView.RecyclerActivity;
+import com.fearlessbear.uiexperimentproject.textview.InputTypeActivity;
 
 public class MainActivity extends Activity {
     ListView listView;
@@ -25,11 +26,13 @@ public class MainActivity extends Activity {
     private static class MyAdapter extends BaseAdapter {
         static String[] data =
                 {
-                        "RecyclerView"
+                        "RecyclerView",
+                        "TextView etc"
                 };
         static Class[] classes =
                 {
-                        RecyclerActivity.class
+                        RecyclerActivity.class,
+                        InputTypeActivity.class
                 };
 
         @Override

@@ -20,6 +20,8 @@
         <activity android:name=".recyclerView.GridLayoutItemNumActivity"/>
         <activity android:name=".recyclerView.ExpandedFollowAnimActivity"/>
         <activity android:name=".recyclerView.ExpandedFollowAnimImplActivity"/>
+        <activity android:name=".textview.InputTypeActivity">
+        </activity>
     </application>
 
 </manifest>
