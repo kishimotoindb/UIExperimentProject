@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:gravity="bottom"
+             
+              android:baselineAligned="false"
+              android:layout_height="100dp">
+
+    <TextView
+        android:includeFontPadding="false"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="测试1"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:includeFontPadding="false"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="测试2"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:includeFontPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="测试3"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:includeFontPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="测试4"
+        android:textSize="25sp"/>
+
+
+</LinearLayout>

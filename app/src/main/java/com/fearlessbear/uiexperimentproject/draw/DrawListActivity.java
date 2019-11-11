@@ -7,10 +7,12 @@ import com.fearlessbear.uiexperimentproject.textview.InputTypeActivity;
 public class DrawListActivity extends BaseActivity {
     {
         mTitle = new String[]{
-                "画布区域裁减"
+                "画布区域裁减",
+                "在View的范围外进行绘制"
         };
         mClasses = new Class[]{
-                CanvasClipActivity.class
+                CanvasClipActivity.class,
+                DrawOutsideViewActivity.class
         };
     }
 }

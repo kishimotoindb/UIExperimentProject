@@ -5,12 +5,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:clipToPadding="false"
-    tools:context=".draw.CanvasClipActivity">
+    tools:context=".draw.DrawOutsideViewActivity">
 
-    <com.fearlessbear.uiexperimentproject.draw.CanvasClipView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:clipToPadding="false"/>
+        android:gravity="center">
+
+
+        <com.fearlessbear.uiexperimentproject.draw.DrawOutsideView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorAccent"/>
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

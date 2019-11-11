@@ -5,12 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:clipToPadding="false"
-    tools:context=".draw.CanvasClipActivity">
+    tools:context=".window.DialogWindowRelationship">
 
-    <com.fearlessbear.uiexperimentproject.draw.CanvasClipView
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:clipToPadding="false"/>
+        android:text="study the relationship between the dialog window and the activity window"
+        android:layout_height="match_parent"/>
 
 </android.support.constraint.ConstraintLayout>
