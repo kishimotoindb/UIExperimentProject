@@ -8,11 +8,13 @@ public class DrawListActivity extends BaseActivity {
     {
         mTitle = new String[]{
                 "画布区域裁减",
-                "在View的范围外进行绘制"
+                "在View的范围外进行绘制",
+                "PorterDuffClear"
         };
         mClasses = new Class[]{
                 CanvasClipActivity.class,
-                DrawOutsideViewActivity.class
+                DrawOutsideViewActivity.class,
+                PorterDuffActivity.class
         };
     }
 }
