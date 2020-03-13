@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".draw.PorterDuffActivity"></activity>
+        <activity android:name=".animation.object.TranslationAnimationActivity"></activity>
+        <activity android:name=".draw.PorterDuffActivity" />
         <activity android:name=".motionEventDispatch.TouchTarget1Activity" />
         <activity android:name=".motionEventDispatch.MotionEventDispatchListActivity" />
         <activity android:name=".DisplayActivity" />
@@ -33,7 +34,7 @@
         <activity android:name=".draw.DrawListActivity" />
         <activity android:name=".draw.CanvasClipActivity" />
         <activity android:name=".animation.AnimationListActivity" />
-        <activity android:name=".animation.TranslateAnimActivity" />
+        <activity android:name=".animation.tween.TranslateAnimActivity" />
         <activity android:name=".webview.WebViewActivity" />
         <activity android:name=".webview.WebViewScrollListenerActivity" />
     </application>

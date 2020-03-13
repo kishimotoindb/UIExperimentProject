@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".animation.object.TranslationAnimationActivity">
+
+    <com.fearlessbear.uiexperimentproject.animation.MyLinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.fearlessbear.uiexperimentproject.animation.object.MyTextView
+            android:background="#00ff00"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="text1" />
+
+        <com.fearlessbear.uiexperimentproject.animation.object.MyTextView
+            android:background="#ffff00"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="text2" />
+
+        <com.fearlessbear.uiexperimentproject.animation.object.MyTextView
+            android:background="#ff0000"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="text3" />
+
+        <com.fearlessbear.uiexperimentproject.animation.object.MyTextView
+            android:background="#0000ff"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="text4" />
+    </com.fearlessbear.uiexperimentproject.animation.MyLinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:text="translate动画: 0->3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <com.fearlessbear.uiexperimentproject.animation.MyLinearLayout
+        android:id="@+id/container1"
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content">
+
+        <com.fearlessbear.uiexperimentproject.animation.object.MyTextView
+            android:background="#00ff00"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="text1" />
+
+        <com.fearlessbear.uiexperimentproject.animation.object.MyTextView
+            android:background="#ffff00"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="text2" />
+
+        <com.fearlessbear.uiexperimentproject.animation.object.MyTextView
+            android:background="#ff0000"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="text3" />
+
+        <com.fearlessbear.uiexperimentproject.animation.object.MyTextView
+            android:background="#0000ff"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="text4" />
+    </com.fearlessbear.uiexperimentproject.animation.MyLinearLayout>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:text="translate动画: 3->0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
